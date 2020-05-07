@@ -24,3 +24,29 @@ language or server-side scripting language. If you don't know what a server is
 don't worry just move on. It means nothing much for now. PHP can pretty much do anything a programming language can do.
 From building, dynamic web application, to Command line scripting, AI, Desktop applications, games, etc. The list is endless.
 Keep moving and you will discover more. What do you have in mind to build, PHP can do it 😀 . 
+
+### PHP As A Scripting Language
+Earlier in this chapter, we talked briefly about a script. You shouldn't think too much of a script.
+It is just a programming word(terminology) for a block of code or set of instructions.
+If you have seen a paper with a list of grocery items, then you good. Like you give 
+a paper to a child to assist you make purchases from the local store. The child is only concern with what is on that list, 
+that is where your instructions for the purchase are. The list can be long or short, it depends.
+A far as the child stick to what is on that paper from the top of it to the bottom, there will be no 
+problems. Likely with PHP. your instruction to PHP to do any must be on a script. PHP looks at the begining of 
+that script to the end, what is there is what it will do(run), and return the result or output. 
+
+A PHP script begins with `<?php` and ends with `?>`. As a short hand you can do `<?` and `?>`  .
+All your instruction(what you want PHP to do) must be within the opening(`<?php`) and closing tags( `<?` ). 
+Yes, they are called tags.
+ **Note:** the closing tags can omitted if the file is only a PHP file, i.e if everything
+in that file is just PHP code.
+
+Example 
+
+`<?php`
+
+    echo 'Hello, World!';
+  
+  `?>` 
+
+This will print out `Hello, World!`
