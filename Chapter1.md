@@ -56,15 +56,30 @@ This will print out `Hello, World!`
 Lol, PHP is not  a server. Sorry not referring to you, a friend whispered it. PHP code , you can call it script, runs on the server.
 So, you recall, it's mainly a server side scripting language. Then what is a server? This is a tiny 
 digression. But here it is.
-Yes you're are right. A server is a machine. There are several servers. A web server serves a web resource.
-You make request using you device, phone, laptop, palmtop, toetop(just kidding), etc
-and you get a response. The web server can hold or store several web resources(in simple words web pages, and related things that makes it functional and useful).
+Yes you're are right. A server is a machine. There are several servers. A web server serves a web resource (in simple words web pages, and related things that makes it functional).
+You make request using your device, phone, laptop, palmtop, toetop(just kidding), etc.
+and you get a response. The web server can hold or store several web resources.
 You making the request is the client, and the machine returning response is the server.
 Note. the server does not see you. It only sees your device, so it is right to say your
-device (phone or laptop) is the client. In summary a client sends a request for the 
-server to fetch a resource and return with a response. The server response may vary depending on the 
-condition the client meets the server. Some common response may be a 404 response which means 
-the resource you're looking for not available. And there are other responses like 500, 200, 302 etc.
-Where does PHP come in? PHP is the middle man. PHP processes your instruction(script) on the server
-and returns the result to the client(browser). One of those popular server is the Apache Server.
-Like the child goes to the store and get your groceries right.
+device (phone or laptop) is the client. Remember communication is machine to machine. In summary a client sends a request for the 
+server to fetch a resource and return a response to the client(a browser for instance). The server response may vary. Some common response code may be a 404 response which means 
+the resource you're looking for is not available. And other responses like 500, 200, 302 etc.
+Where does PHP come in?
+
+
+### The Interpreter
+
+
+PHP is an interpreted language. There are other interpreted languages and some are compiled.
+What does 'interpreted' mean? Say you traveled to china and you needed to get around. 
+You entered a store, the price tags are written in 
+Mandarin. You'll surely need someone to help you here right. This person interprets the 
+language to you. A PHP script needs a PHP interpreter. When you make a request to 
+a server for a web resource: e.g you visit wwww.somename.com/index.php, you're 
+requesting for a php file. The server knows this because the file name ends with .php.
+The server picks this file as it can't read it and send it to the PHP interpreter
+and say 'hey man, what is in here?'. The interpreter looks at the file and says "oh, 'Hello world!'".
+Then the server passes the response back to the client who requested for the file. And the client 
+sees 'Hello world!' (in the browser for instance).
+So basically, what the PHP interpreter does is interpret PHP script line by line, just like you read a book sentence by sentence.
+And the server sends(serve the response) the message back to the client.
