@@ -1,6 +1,6 @@
-# Chapter One
-## DEFINITION
-### [What is PHP? ](https://www.php.net/manual/en/intro-whatis.php)
+# Introduction
+
+## 1.1 [What is PHP? ](https://www.php.net/manual/en/intro-whatis.php)
 PHP is an acronym for PHP Hypertext Preprocessor. 
 It is a popular scripting language. What on earth does that mean?
 Well, don't think too much of the 'scripting'. Let's look at it this way:
@@ -15,7 +15,7 @@ to the server(local store) and return with a result.
 Hope you're getting comfortable with PHP now. PHP is a straight forward 
 language, easy to pickup and advanced enough to do cool stuff.
 
-### [What can PHP Do?](https://www.php.net/manual/en/intro-whatcando.php)
+## 1.2 [What can PHP Do?](https://www.php.net/manual/en/intro-whatcando.php)
 
 Well, what do you want to do with PHP?
 PHP can handle server-side tasks. In simple language, this means PHP handles instruction or you can call it tasks
@@ -25,7 +25,7 @@ don't worry just move on. It means nothing much for now. PHP can pretty much do 
 From building, dynamic web application, to Command line scripting, AI, Desktop applications, games, etc. The list is endless.
 Keep moving and you will discover more. What do you have in mind to build, PHP can do it 😀 . 
 
-### PHP As A Scripting Language
+## 1.3 PHP As A Scripting Language
 Earlier in this chapter, we talked briefly about a script. You shouldn't think too much of it.
 It is just a programming word(terminology) for a block of code or set of instructions.
 If you have seen a paper with a list of grocery items, then you're good. Like you give 
@@ -41,7 +41,7 @@ Yes, they are called tags.
  **Note:** the closing tags can be omitted if the file is only a PHP file, i.e if everything
 in that file is just PHP code.
 
-Example 1. 1
+### Example 1. 3.1
 
 `<?php`
 
@@ -52,7 +52,7 @@ Example 1. 1
 This will print out `Hello, World!`
 
 
-### PHP And The Server
+## 1.4 PHP And The Server
 Lol, PHP is not  a server. Sorry not referring to you, a friend whispered it. PHP code , you can call it script, runs on the server.
 So, you recall, it's mainly a server side scripting language. Then what is a server? This is a tiny 
 digression. But here it is.
@@ -67,7 +67,7 @@ the resource you're looking for is not available. And other responses like 500, 
 Where does PHP come in?
 
 
-### The Interpreter
+## 1.6 The Interpreter
 
 
 PHP is an interpreted language. There are other interpreted languages and some are compiled.
