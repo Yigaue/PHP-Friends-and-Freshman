@@ -26,22 +26,22 @@ From building, dynamic web application, to Command line scripting, AI, Desktop a
 Keep moving and you will discover more. What do you have in mind to build, PHP can do it 😀 . 
 
 ### PHP As A Scripting Language
-Earlier in this chapter, we talked briefly about a script. You shouldn't think too much of a script.
+Earlier in this chapter, we talked briefly about a script. You shouldn't think too much of it.
 It is just a programming word(terminology) for a block of code or set of instructions.
-If you have seen a paper with a list of grocery items, then you good. Like you give 
+If you have seen a paper with a list of grocery items, then you're good. Like you give 
 a paper to a child to assist you make purchases from the local store. The child is only concern with what is on that list, 
 that is where your instructions for the purchase are. The list can be long or short, it depends.
-A far as the child stick to what is on that paper from the top of it to the bottom, there will be no 
-problems. Likely with PHP. your instruction to PHP to do any must be on a script. PHP looks at the begining of 
+A far as the child stick to what is on that paper from the top of it to the bottom, there should be no 
+issues. Same with PHP. your instruction to PHP to do anything must be on a script. PHP looks at the beginning of 
 that script to the end, what is there is what it will do(run), and return the result or output. 
 
-A PHP script begins with `<?php` and ends with `?>`. As a short hand you can do `<?` and `?>`  .
+A PHP script begins with `<?php  and ends with ?>`. As a short hand you can do `<?` and `?>`  .
 All your instruction(what you want PHP to do) must be within the opening(`<?php`) and closing tags( `<?` ). 
 Yes, they are called tags.
- **Note:** the closing tags can omitted if the file is only a PHP file, i.e if everything
+ **Note:** the closing tags can be omitted if the file is only a PHP file, i.e if everything
 in that file is just PHP code.
 
-Example 
+Example 1. 1
 
 `<?php`
 
@@ -50,3 +50,21 @@ Example
   `?>` 
 
 This will print out `Hello, World!`
+
+
+### PHP And The Server
+Lol, PHP is not  a server. Sorry not referring to you, a friend whispered it. PHP code , you can call it script, runs on the server.
+So, you recall, it's mainly a server side scripting language. Then what is a server? This is a tiny 
+digression. But here it is.
+Yes you're are right. A server is a machine. There are several servers. A web server serves a web resource.
+You make request using you device, phone, laptop, palmtop, toetop(just kidding), etc
+and you get a response. The web server can hold or store several web resources(in simple words web pages, and related things that makes it functional and useful).
+You making the request is the client, and the machine returning response is the server.
+Note. the server does not see you. It only sees your device, so it is right to say your
+device (phone or laptop) is the client. In summary a client sends a request for the 
+server to fetch a resource and return with a response. The server response may vary depending on the 
+condition the client meets the server. Some common response may be a 404 response which means 
+the resource you're looking for not available. And there are other responses like 500, 200, 302 etc.
+Where does PHP come in? PHP is the middle man. PHP processes your instruction(script) on the server
+and returns the result to the client(browser). One of those popular server is the Apache Server.
+Like the child goes to the store and get your groceries right.
